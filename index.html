@@ -4,19 +4,24 @@
     <meta charset="utf-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
   </head>
   <body>
-    <nav>
+    <nav class="my-nav-bar">
       <div class="logo">
-        <h3>Portfolio</h3>
+        <a class="nohover" href="#" style="text-decoration:none" ><h3>Portfolio</h3></a>
       </div>
-      <ul class="nav-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
-        
+
+      <ul class="my-nav-links ">
+
+        <li><a href="#About-me" >About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery"> Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+
       </ul>
 
       <div class="burger">
@@ -33,45 +38,55 @@
 
     </nav>
 
-    <div class="banner-area">
+    <div class="banner-area center">
       <h2>this is banner</h2>
     </div>
 
     <div class="content-area">
 
-      <div class="About-me">
-        <h2>About me</h2>
+      <div id="About-me"  class=" my-design-paragraph">
+        <h2 class="my-design-heading">About me</h2>
 
         <p>I am submitting my resume for consideration for the Spring internship program. Given the skills and experience outlined in my enclosed resume, I believe I will be a worthy asset to your team.In my one year at University of Texas, at Arlington, I’ve completed a great deal of coursework on Database Systems, Distributed Systems, Algorithms and Data Structures, Software Testing , Design and Analysis of Algorithms where I learned and applied skills such as creating a schema and adding data to databases, working on database commands i.e. SQL queries, Implemented Multi-threaded client-server concepts, Data Structures and pointers in C Programming.I always feel that there is something new to learn in every company or every work I do. Me being an student of electrical background at under graduation I am in hunger of searching an opportunity to explore and widened my knowledge in IT field. For me pay does not matter what I learn and apply is all what matters to me at the end. I want to give my 100 percent to the company I work for.I spent the past semester volunteering my time with cultural team of my university in organizing the college events .Finally, my one year working at Chik-fila as a part time service worker at the University centre has taught me the importance of building a convenient and memorable consumer experience that aligns with the brand. It also helped me grow my skills in team collaboration, verbal communication and leadership.
         I believe I would make an excellent addition to your team. This internship would help me grow my real-world experience in the technology industry and help me further develop and refine my application and coding skills.</p>
       </div>
 
-      <div class="experience">
-        <h2>Experience</h2>
+      <div id="experience" class="my-design-paragraph">
+        <h2 class="my-design-heading">Experience</h2>
 
         <p>I am submitting my resume for consideration for the Spring internship program. Given the skills and experience outlined in my enclosed resume, I believe I will be a worthy asset to your team.In my one year at University of Texas, at Arlington, I’ve completed a great deal of coursework on Database Systems, Distributed Systems, Algorithms and Data Structures, Software Testing , Design and Analysis of Algorithms where I learned and applied skills such as creating a schema and adding data to databases, working on database commands i.e. SQL queries, Implemented Multi-threaded client-server concepts, Data Structures and pointers in C Programming.I always feel that there is something new to learn in every company or every work I do. Me being an student of electrical background at under graduation I am in hunger of searching an opportunity to explore and widened my knowledge in IT field. For me pay does not matter what I learn and apply is all what matters to me at the end. I want to give my 100 percent to the company I work for.I spent the past semester volunteering my time with cultural team of my university in organizing the college events .Finally, my one year working at Chik-fila as a part time service worker at the University centre has taught me the importance of building a convenient and memorable consumer experience that aligns with the brand. It also helped me grow my skills in team collaboration, verbal communication and leadership.
         I believe I would make an excellent addition to your team. This internship would help me grow my real-world experience in the technology industry and help me further develop and refine my application and coding skills.</p>
       </div>
 
 
-    <div class="projects">
-      <h2>Projects</h2>
+    <div id="projects" class="my-design-paragraph">
+      <h2 class="my-design-heading">Projects</h2>
 
       <p>I am submitting my resume for consideration for the Spring internship program. Given the skills and experience outlined in my enclosed resume, I believe I will be a worthy asset to your team.In my one year at University of Texas, at Arlington, I’ve completed a great deal of coursework on Database Systems, Distributed Systems, Algorithms and Data Structures, Software Testing , Design and Analysis of Algorithms where I learned and applied skills such as creating a schema and adding data to databases, working on database commands i.e. SQL queries, Implemented Multi-threaded client-server concepts, Data Structures and pointers in C Programming.I always feel that there is something new to learn in every company or every work I do. Me being an student of electrical background at under graduation I am in hunger of searching an opportunity to explore and widened my knowledge in IT field. For me pay does not matter what I learn and apply is all what matters to me at the end. I want to give my 100 percent to the company I work for.I spent the past semester volunteering my time with cultural team of my university in organizing the college events .Finally, my one year working at Chik-fila as a part time service worker at the University centre has taught me the importance of building a convenient and memorable consumer experience that aligns with the brand. It also helped me grow my skills in team collaboration, verbal communication and leadership.
       I believe I would make an excellent addition to your team. This internship would help me grow my real-world experience in the technology industry and help me further develop and refine my application and coding skills.</p>
 
     </div>
 
-    <div class="gallery">
-      <h2>Gallery</h2>
+    <div id="gallery" class="my-design-paragraph">
+      <h2 class="my-design-heading">Gallery</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-xs-6 thumbnail"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/04LDEYRW59.jpg" alt=""></div>
+          <div class="col-lg-4 col-xs-6 thumbnail"><img  src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/90V03Q5Y60.jpg" alt=""></div>
+          <div class="col-lg-4 col-xs-6 thumbnail"><img  src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/O83SF2RB6D.jpg" alt=""></div>
+          <div class="col-lg-4 col-xs-6 thumbnail"><img  src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/5JVPSVP7EI.jpg" alt=""></div>
+          <div class="col-lg-4 col-xs-6 thumbnail"><img  src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/C5Y10KIIHA.jpg" alt=""></div>
+          <div class="col-lg-4 col-xs-6 thumbnail"><img  src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/YSSFRY5B25.jpg" alt=""></div>
 
-      <p>I am submitting my resume for consideration for the Spring internship program. Given the skills and experience outlined in my enclosed resume, I believe I will be a worthy asset to your team.In my one year at University of Texas, at Arlington, I’ve completed a great deal of coursework on Database Systems, Distributed Systems, Algorithms and Data Structures, Software Testing , Design and Analysis of Algorithms where I learned and applied skills such as creating a schema and adding data to databases, working on database commands i.e. SQL queries, Implemented Multi-threaded client-server concepts, Data Structures and pointers in C Programming.I always feel that there is something new to learn in every company or every work I do. Me being an student of electrical background at under graduation I am in hunger of searching an opportunity to explore and widened my knowledge in IT field. For me pay does not matter what I learn and apply is all what matters to me at the end. I want to give my 100 percent to the company I work for.I spent the past semester volunteering my time with cultural team of my university in organizing the college events .Finally, my one year working at Chik-fila as a part time service worker at the University centre has taught me the importance of building a convenient and memorable consumer experience that aligns with the brand. It also helped me grow my skills in team collaboration, verbal communication and leadership.
-      I believe I would make an excellent addition to your team. This internship would help me grow my real-world experience in the technology industry and help me further develop and refine my application and coding skills.</p>
+        </div>
+
+      </div>
+
 
     </div>
 
-    <div class="contact">
-      <h2>Contact Me</h2>
+    <div id="contact" class="my-design-paragraph">
+      <h2 class="my-design-heading">Contact Me</h2>
 
       <p>I am submitting my resume for consideration for the Spring internship program. Given the skills and experience outlined in my enclosed resume, I believe I will be a worthy asset to your team.In my one year at University of Texas, at Arlington, I’ve completed a great deal of coursework on Database Systems, Distributed Systems, Algorithms and Data Structures, Software Testing , Design and Analysis of Algorithms where I learned and applied skills such as creating a schema and adding data to databases, working on database commands i.e. SQL queries, Implemented Multi-threaded client-server concepts, Data Structures and pointers in C Programming.I always feel that there is something new to learn in every company or every work I do. Me being an student of electrical background at under graduation I am in hunger of searching an opportunity to explore and widened my knowledge in IT field. For me pay does not matter what I learn and apply is all what matters to me at the end. I want to give my 100 percent to the company I work for.I spent the past semester volunteering my time with cultural team of my university in organizing the college events .Finally, my one year working at Chik-fila as a part time service worker at the University centre has taught me the importance of building a convenient and memorable consumer experience that aligns with the brand. It also helped me grow my skills in team collaboration, verbal communication and leadership.
       I believe I would make an excellent addition to your team. This internship would help me grow my real-world experience in the technology industry and help me further develop and refine my application and coding skills.</p>
@@ -80,9 +95,9 @@
 
   </div>
 
-    <script src="./js/index.js" >
+    <script src="./js/myportfolio.js" ></script>
+    <script src="./js/slideanimation.js" ></script>
 
-    </script>
 
 
   </body>
