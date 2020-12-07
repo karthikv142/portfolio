@@ -44,6 +44,10 @@
     text-decoration: none;
 }
 
+/* .more-padding{
+  justify: center;
+} */
+
 .my-nav-links a{
   color: white;
   text-decoration: none;
@@ -69,15 +73,16 @@
 
 .banner-area {
 	width: 100%;
-	height:1600px;
+	height:1650px;
 	position: fixed;
 	top: 60px;
-	background-image:url("../assets/images/portfolio_home.jpg");
+	background-image:url("../assets/images/PB260512.JPG");
 	background-size: cover;
 	background-position: center center;
+  opacity: 80%;
 }
 
-.banner-area h2 {
+.banner-area h4 {
 	padding-top: 8%;
 	font-size: 70px;
   text-align: center;
@@ -89,8 +94,9 @@
 .content-area {
 	width: 100%;
 	position: relative;
-	top: 450px;
-	background-color: #ebebeb;
+	top: 550px;
+  background-color: lightgrey;
+  ;
 }
 
 .content-area h2 {
@@ -116,6 +122,72 @@
 
 .my-design-heading{
   text-align: center;
+}
+
+.img-grid-certi{
+  height: 35%;
+  width: 90%;
+}
+
+#project-des-certi td{
+  /* margin-left:2%;*/
+  padding-left: 2%;
+  padding-right: 5%;
+  padding-top: 2%;
+  text-align: justify;
+}
+.img-grid{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  height: 40%;
+  width: 100%;
+}
+
+#project-des td{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+
+.form {
+	text-align: center;
+	padding-top: 2%
+}
+
+.spilt-input {
+	width: 35%;
+	margin: .5%;
+	height: 6%;
+	padding-left: 2%;
+}
+
+.full-input {
+	width: 71.35%;
+	margin: .5%;
+	height: 6%;
+	padding-left: 2%;
+
+}
+
+.contact {
+	text-align: center;
+}
+.contact-details th{
+    width: 25%;
+}
+
+.submit-button {
+	padding: .5%;
+  height: 5%;
+  margin-top: 2%;
+  width: 10%;
+}
+
+#my-text-area {
+	height: 24%;
+	padding-top: 1%
 }
 
 @media (max-width: 1024px) {

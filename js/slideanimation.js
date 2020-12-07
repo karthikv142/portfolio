@@ -6,6 +6,7 @@ function element(){
      document.getElementById('projects').style.height = h+"px";
      document.getElementById('gallery').style.height = h+"px";
      document.getElementById('contact').style.height = h+"px";
+     document.getElementById('certificates').style.height = h+"px";
 
 
 }
@@ -33,7 +34,9 @@ function slideAnimate() {
   else if(Yoffset < (5*h)) {
       i.style.left = "1200px";
   }
-
+  else if(Yoffset < (6*h)) {
+      i.style.left = "1350px";
+  }
 
 }
 window.addEventListener('scroll',slideAnimate);

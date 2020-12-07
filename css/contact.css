@@ -1,18 +1,52 @@
 .form {
 	text-align: center;
-	padding: 5%;
+	padding-top: 5%
+	/*width: 50%;*/
+	/*height: 100%;*/
 }
 
 .spilt-input {
-	width: 40%;
-	margin: 5%;
+	width: 20%;
+	margin: .5%;
+	/*height: 6%;*/
+	padding: .5%;
 }
 
 .full-input {
-	width: 80.35%;
+	width: 41.35%;
 	margin: .5%;
+	/*height: 6%;*/
+	padding-left: 1%;
+	margin-top: 1%;
+	padding: .5%;
 }
 
 .contact {
 	text-align: center;
+}
+
+.submit-button {
+	margin-top: 1%;
+	padding: .5%;
+	border-radius: 15%;
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#my-text-area {
+	height: 25%;
+	padding-top: .5%
+}
+
+.my-contact-details {
+	width: 50%;
+	float: left;
+	padding-top: 10%;
+	padding-bottom: 10%;
+
+}
+
+.my-info-details {
+	padding-bottom: 0%;
 }
