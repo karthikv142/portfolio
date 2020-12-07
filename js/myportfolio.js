@@ -1,6 +1,6 @@
 const burger=document.querySelector(".burger");
-const nav=document.querySelector(".nav-links");
-const navlinks=document.querySelectorAll('.nav-links li');
+const nav=document.querySelector(".my-nav-links");
+const navlinks=document.querySelectorAll('.my-nav-links li');
 const bannerarea=document.querySelector('.banner-area');
 
 function disp_nav(){

@@ -1,0 +1,27 @@
+.about-me-img-detail {
+	float: left;
+	margin: 5%;
+	height: 50%;
+	width: 32%;
+	border-radius: 50%;
+}
+
+.about-me-detail {
+	text-align: center;
+	padding-top: 2%;
+}
+
+.about-me-info {
+	text-align: justify;
+	margin-right:1%;
+
+}
+
+.about-me-button {
+	padding: .5%;
+	color: black;
+    background-color:lightblue;
+	height: 6%;
+	width: 10%;
+	border-radius: 10%;
+}
